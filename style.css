@@ -136,12 +136,12 @@ background: #f7f7f7;
   padding: 30px 0px;
   text-align: center;
 }
-@media (max-width: 400px){
+@media (max-width: 600px){
   .conteudo{
     display: grid;
     grid-template-columns: 1fr;
   }
-  @media (max-width: 400px){
+  @media (max-width: 600px){
     .menu{
       display: grid;
       grid-template-columns: 1fr;
@@ -151,24 +151,23 @@ background: #f7f7f7;
       padding: 0px;
        }
   }
-  @media (max-width: 400px){
+  @media (max-width: 600px){
     .descrição{
       max-width: 40ch;
     }
   }
-  @media (max-width: 400px){
+  @media (max-width: 600px){
     .vant{
       max-width: 10ch;
 
     }
   }
-  @media (max-width: 400px){
+  @media (max-width: 600px){
     .conteudo {
       width: 100%;
     }
   }
-  @media (max-width: 400px){
+  @media (max-width: 600px){
     .informações h1 {
       display: none;
     }
-  
