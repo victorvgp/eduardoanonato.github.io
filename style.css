@@ -1,0 +1,121 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  margin-top: 60px;
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+h3,
+p,
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  /* tinha faltADO O display block */
+}
+footer {
+  display: grid;
+  justify-items: center;
+}
+
+.cabeçario {
+  text-align: center;
+}
+.menu a {
+  background-color: white;
+  border-radius: 4px;
+  padding: 21px 40px;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  /* função nova */
+  font-weight: 600;
+  /* função nova */
+}
+.menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+/* sempre indicar DIV depois a TAG */
+.conteudo {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.informações {
+  background-color: white;
+  font-size: 20px;
+  justify-items: end;
+  text-align: right;
+  gap: 20px;
+  place-content: center;
+  display: grid;
+  padding: 45px;
+  position: relative;
+}
+.informações h1::after{
+  content: "";
+  border-top: 4px solid #ee2211;
+  padding: 30px;
+  display: inline-block;
+  position:absolute;
+  top: 30px;
+  right: -30px;
+}
+/*  position: absolute;
+  top: 75px;
+  right: 515px;
+} */
+
+.botão {
+  color: white;
+  font-size: 16px;
+  padding: 15px 30px;
+  border: none;
+  background-color: #ee2211;
+  border-color: #ee2211;
+  border-radius: 3px;
+}
+.vant {
+  font-size: 60px;
+  font-weight: 700;
+  color: gray;
+  display: grid;
+  text-align: right;
+  margin: 40px;
+  place-content: center;
+
+}
+.vantagens{
+  background-color: white;
+  display: grid;
+  font-size: 20px;
+  padding: 40px 40px 0px 40px;
+  
+}
+.espe-itens {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  row-gap: 0px;
+  margin-bottom: 40px;
+}
+.espe-itens p {
+  grid-column: 2;
+}
+.rodape {
+  font-size: 20px;
+  width: 100%;
+  background-color: white;
+  padding: 30px 0px;
+  text-align: center;
+}
